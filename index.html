@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+
+    <!-- import the webpage's stylesheet -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+     <h1 class="title">
+     The Productivity Of Productivity Pages 
+    </h1>
+    <div class="flexcontainer">
+      <div class="overallcontainer">
+     
+      <div class="app1" id="changeback">
+       <h2 class="titleof">
+         Focus Timer
+        </h2> 
+        <div class="button-row">
+        <button class="timerBtn button-5">5</button>
+        <button class="timerBtn button-15">15</button>
+        <button class="timerBtn button-30">30</button>
+      </div>
+      <div class="timer-display">00:00</div>
+      <div class="timer-control">
+        <button class="play-pause">
+          <ion-icon id="ionicon" name="play-circle-outline"></ion-icon>
+        </button>
+      </div>
+      </div>
+        
+        <div class="app2" id="changeback2">
+          <h2 class="titleof">
+            Clock
+          </h2>
+         <p id="textDate">
+      
+    </p>
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+      <div class="app3" id="changeback3">
+        <h2 class="titleof">
+          To-Do List
+        </h2>
+<div class="todo-addition">
+    <div class="todorow">
+      <form>
+    <input class="todo-input" type="text" placeholder="Write a New To Do">
+    <button type="submit" class="add-todo">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </button>  
+    </form>
+    </div>
+    
+  </div>
+<div class="todo-list"></div>
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      <div class="app4" id="changeback4">
+        <h2 class="titleof">
+          Calculator
+        </h2>
+        <div id="totalof">
+        </div>
+        <div class="calc-buttons">
+          <button class="indiv-button">
+            C
+          </button>
+          <button class="indiv-button">
+            /
+          </button>
+          <button class="indiv-button">
+            *
+          </button>
+          <button class="indiv-button">
+            &larr;
+          </button>
+          <button class="indiv-button">
+            7
+          </button>
+          <button class="indiv-button">
+            8
+          </button>
+          <button class="indiv-button">
+            9
+          </button>
+          <button class="indiv-button">
+            -
+          </button>
+          <button class="indiv-button">
+            4
+          </button>
+          <button class="indiv-button">
+            5
+          </button>
+          <button class="indiv-button">
+            6
+          </button>
+          <button class="indiv-button">
+            +
+          </button>
+          <button class="indiv-button">
+            1
+          </button>
+          <button class="indiv-button">
+            2
+          </button>
+          <button class="indiv-button">
+            3
+          </button>
+          <button class="indiv-button">
+            .
+          </button>
+          <button id="openparent" class="indiv-button">
+            (
+          </button>
+          <button class="indiv-button">
+            0
+          </button>
+          <button class="indiv-button">
+            )
+          </button>
+          <div id="equal" class="indiv-button">
+            =
+          </div>
+        </div>
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="app5" id="changeback5">
+           <div class="rowoftitle">
+             <h2 class="titleof">
+             Tip Calculator
+           </h2>
+           </div>
+           
+         <div class="inputs">
+      <p class="billtotal">Bill Total</p>
+      <input type="number" id="totalBill" placeholder="Bill Total">
+
+    <div class="quality">
+      <p class="qualityof">Quality of Service</p>
+      <div class="tipAmounts">
+        <button class="tipBtn10 tipBtn" id="tip10">10%</button>
+        <button class="tipBtn15 tipBtn" id="tip15">15%</button>
+        <button class="tipBtn20 tipBtn" id="tip20">20%</button>
+        <button class="tipBtn25 tipBtn" id="tip25">25%</button>
+      </div>
+    </div>
+    <div>
+      <p class="numberofpeople">Number of People</p>
+      <input type="number" id="numPeopleInput" placeholder="Number of People">
+    </div>
+    <button id="calculate">Calculate Tip</button>
+  </div>
+  <div class="output">
+    <div class="totalperperson">
+      <h2>Total</h2>
+    <p>/per person</p>
+    <p id="outputBill">$0.00</p>
+    </div>
+    <div class="totaltip">
+      <p class="bar"></p>
+    <h2>Total Tip</h2>
+    <p>/per person</p>
+    <p id="outputTip">$0.00</p> 
+    </div>
+   
+  </div>
+      </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="app6" id="changeback6">
+        <h2 class="titleof">
+          Dark Mode Switch
+          </h2>
+          <div class="darkrow">
+           <div class="darkmode">
+             
+             
+             <button id="toggleDark">
+               <ion-icon class="darkbutton" name="cloudy-outline"></ion-icon> 
+             </button>
+           
+          </div>
+          <div class="lightmode">
+            
+            
+            
+            
+            <button id="toggleLight">
+      <ion-icon class="lightbutton" name="cloudy-night-outline"></ion-icon> 
+            </button>
+           
+          </div> 
+          </div>
+          
+      </div>
+    </div>
+    </div>
+    
+  </body>
+</html>
